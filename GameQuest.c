@@ -34,7 +34,7 @@ int main()
     int encontrei = 0;
     int caractere;
 
-    curl_easy_setopt(section, CURLOPT_URL, "http://pt.wikipedia.org/wiki/Categoria:Armas_japonesas_antigas");
+    curl_easy_setopt(section, CURLOPT_URL, "www.site.com");
     FILE * arquivo = fopen("arq.txt", "w");
 
     curl_easy_setopt(section,  CURLOPT_WRITEDATA, arquivo);
